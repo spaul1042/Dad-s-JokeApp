@@ -1,4 +1,16 @@
 .Joke-Container{
-    border:2px solid red;
-    color:blueviolet;
+    
+    margin:25px;
+    width:fit-content;
+
+}
+button{
+    color:chocolate;
+    margin:3px;
+}
+
+.Joke-Line{
+    
+    font-style: italic;
+    color:darkcyan;
 }

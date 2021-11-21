@@ -78,8 +78,8 @@ class Joke extends Component {
   render(){
     
   return (
-   <div> 
-      <h3 className="Joke-Container"> 
+   <div className="Joke-Container"> 
+      <h3> 
       Score- [{ this.state.score}] 
       <button onClick ={this.upvote}>Upvote</button>
       <button onClick ={this.downvote}>Downvote</button> 

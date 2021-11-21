@@ -1,38 +1,24 @@
-.App {
-  text-align: center;
+
+.Container{
+  height:600px;
+  width:1400px;
+  margin-left: 100px;
+  margin-top:70px;
+  border:2px solid lightsalmon;
+  background-color:hsl(266, 47%, 61%);
+  /* background-image: url("https://static1.srcdn.com/wordpress/wp-content/uploads/2020/10/Best-Among-Us-Desktop-PC-Wallpaper-Backgrounds-MaternitySignpost-Neytrix.jpg"); */
+   
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.heading{
+  font-size: xx-large;
+  color:blueviolet;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
+/* .App-Container{
+  display:flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+  text-align: center;
+  height:auto;
+  width:auto;
+} */
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
